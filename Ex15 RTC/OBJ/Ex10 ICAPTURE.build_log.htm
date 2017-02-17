@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: £gVision V5.16a
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: MH admin, IST, LIC=Y2BRA-19FM0-04RSQ-NADFJ-G99M2-PXGLC
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.16a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 (build 20)
+Assembler:       Armasm.exe V5.06 (build 20)
+Linker/Locator:  ArmLink.exe V5.06 (build 20)
+Library Manager: ArmAr.exe V5.06 (build 20)
+Hex Converter:   FromElf.exe V5.06 (build 20)
+CPU DLL:         SARMCM3.DLL V5.16a
+Dialog DLL:      DCM.DLL V1.13.2.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.17.0
+Dialog DLL:      TCM.DLL V1.14.5.0
+ 
+<h2>Project:</h2>
+C:\Users\admin\Documents\GitSource\stm32_atom\Ex15 RTC\USER\Ex15 RTC.uvprojx
+Project File Date:  12/23/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 (build 20)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Ex15 RTC'
+compiling usmart_config.c...
+compiling rtc.c...
+..\HARDWARE\RTC\rtc.c(86): warning:  #69-D: integer conversion resulted in truncation
+  	RTC_AlarmTypeInitStructure.RTC_AlarmDateWeekDay = 
+TC_AlarmDateWeekDaySel_WeekDay; // wake by week
+..\HARDWARE\RTC\rtc.c: 1 warning, 0 errors
+compiling usmart.c...
+linking...
+..\OBJ\Ex10 ICAPTURE.axf: Error: L6218E: Undefined symbol RTC_Set_WakeUp (referred from main.o).
+..\OBJ\Ex10 ICAPTURE.axf: Error: L6218E: Undefined symbol EXTI_ClearITPendingBit (referred from rtc.o).
+..\OBJ\Ex10 ICAPTURE.axf: Error: L6218E: Undefined symbol EXTI_Init (referred from rtc.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 3 error messages.
+"..\OBJ\Ex10 ICAPTURE.axf" - 3 Error(s), 1 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\admin\Documents\GitSource\stm32_atom\Ex15 RTC\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

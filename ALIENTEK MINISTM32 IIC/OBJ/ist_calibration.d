@@ -1,0 +1,9 @@
+..\obj\ist_calibration.o: ..\IST_LIB\src\ist_calibration.c
+..\obj\ist_calibration.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\ist_calibration.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\float.h
+..\obj\ist_calibration.o: ..\IST_LIB\inc\Config.h
+..\obj\ist_calibration.o: ..\IST_LIB\inc\ist_calibration.h
+..\obj\ist_calibration.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\ist_calibration.o: ..\IST_LIB\inc\IST_LIB.h
+..\obj\ist_calibration.o: ..\IST_LIB\inc\ist_math.h
+..\obj\ist_calibration.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
